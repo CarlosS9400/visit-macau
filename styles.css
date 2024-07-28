@@ -1,0 +1,105 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #4D4746;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+
+}
+
+#top-image {
+    background-image: url(images/macau.jpg);
+    background-size: cover;
+    height: 350px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+
+    display: flex;
+    justify-content: start;
+    padding-left: 200px;
+    padding-top: 50px
+}
+
+#bio {
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-shadow: 1px 1px 10px black;
+}
+
+#macau {
+    border-bottom: 5px solid white;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#left-column, #center-column, #right-column, #bio {
+    width: 600px;
+    height: 250px;
+    border-radius: 20px;
+    background: #D9D9D9;
+    border: 10px solid #5CACE5;;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px 10px;
+    box-shadow: 5px -5px 10px #776f6f;
+    
+}
+
+.description, #bio-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.macau-image, #bio-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 100px;
+}
+
+h2, h3, p {
+    color: #1F1BE4;
+    padding-bottom: 10px;
+    font-size: large;
+
+}
+
+h1 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: medium;
+    width: 250px;
+    text-align: left;
+}
+
+#end {
+    font-size: large;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+
+
+
